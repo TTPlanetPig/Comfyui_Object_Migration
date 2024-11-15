@@ -4,7 +4,7 @@ This is an experimental project focused on **Stable Diffusion (SD) models**. In 
 
 At that time, I used the **ControlNet** model with decaying weights to achieve good results. By using reference images, it was possible to generate multiple views of a single character at once while maintaining extremely high consistency. Due to a busy schedule, further exploration of this work was put on hold.
 
-Recently, I came across discussions about **ic-lora** and noticed that it remains a standard **LoRA** but leverages the **DIT model** to achieve better consistency and excellent control over image formatting. Utilizing this format control effect, there is hope to achieve consistency in applications. Inspired by the concept of a latent-guided workflow introduced by the netizen "Xiao Zhi," I simplified the entire preprocessing logic, thereby developing a highly effective migration method.
+Recently, I came across discussions about **ic-lora** and noticed that it remains a standard **LoRA** but leverages the **DIT model** to achieve better consistency and excellent control over image formatting. Utilizing this format control effect, there is hope to achieve consistency in applications. Inspired by the concept of a latent-guided workflow introduced by the netizen "lrzjason aka xiaozhi," I simplified the entire preprocessing logic, thereby developing a highly effective migration method.
 
 Through this process and methodology, you can achieve surprising migration and generalization effects by guiding the model to focus on the content you need, providing astonishing consistency. Currently, I have developed a matching migration model for clothing, which offers:
 
@@ -37,6 +37,7 @@ You can download the model from my [Hugging Face project](https://huggingface.co
 - **Custom Nodes**:
   1. **TTP Toolset**: [ComfyUI_TTP_Toolset](https://github.com/TTPlanetPig/Comfyui_TTP_Toolset) *(Please update to the latest version)*
   2. **Tag Node**: I recommend using my version which provides a **custom_modification** for extra direction: [ComfyUI_JC2](https://github.com/TTPlanetPig/Comfyui_JC2)
+  3. **I also used Alimama flux inpainting model, to get it from here: [Alimama_flux_inpainint](https://huggingface.co/black-forest-labs/FLUX.1-dev)
 
 ### Steps
 
@@ -44,6 +45,7 @@ You can download the model from my [Hugging Face project](https://huggingface.co
 2. **Download** the **Cloth LoRA** from the Migration LoRA folder on Hugging Face.
 3. **Load** the model into ComfyUI.
 4. **Use** the provided workflow example to achieve the desired results.
+5. **Notice** select the flux version wisely, as we need to load the Alimama inpainting model at same time, more VRAM needed, try nf8 if you feel slow. or use some momey optimization node like [FluxExt-MZ](https://github.com/MinusZoneAI/ComfyUI-FluxExt-MZ)
 
 Feel free to experiment and modify the workflow according to your needs!
 

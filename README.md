@@ -29,7 +29,7 @@ Through this process and methodology, you can achieve surprising migration and g
 
 ## How to Use
 
-You can download the model from my [Hugging Face project](https://huggingface.co/your-project-link) in the **Migration LoRA** folder. Currently, only the **Cloth LoRA** is available, but I will add more once they are ready.
+You can download the model from my [Hugging Face project](https://huggingface.co/TTPlanet/Migration_Lora_flux/tree/main) in the **Migration LoRA** folder. Currently, only the **Cloth LoRA** is available, but I will add more once they are ready.
 
 ### Requirements
 

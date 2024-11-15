@@ -1,4 +1,13 @@
 # Clothing Migration Kit
+Contact me:
+
+QQ group: 571587838
+
+Bilibili: [homepage](https://space.bilibili.com/23462279?spm_id_from=333.999.0.0)
+
+Civitai: [ttplanet](https://civitai.com/user/ttplanet)
+
+wechat: tangtuanzhuzhu
 
 This is an experimental project focused on **Stable Diffusion (SD) models**. In a single generated image, the same object or character consistently maintains a very high level of consistency. I had already attempted to address this issue in the **SDXL** model.
 

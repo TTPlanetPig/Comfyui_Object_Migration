@@ -40,7 +40,7 @@ You can download the model from my [Hugging Face project](https://huggingface.co
   3. **I also used Alimama flux inpainting model, to get it from here: [Alimama_flux_inpainint](https://huggingface.co/black-forest-labs/FLUX.1-dev)
 
 ### Steps
-
+**workflow is over here [workflow](https://github.com/TTPlanetPig/Comfyui_Object_Migration/blob/main/workflow/cloth_style_Migration_v2.json)
 1. **Install ComfyUI** and the required custom nodes listed above.
 2. **Download** the **Cloth LoRA** from the Migration LoRA folder on Hugging Face.
 3. **Load** the model into ComfyUI.
